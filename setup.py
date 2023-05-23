@@ -27,6 +27,7 @@ class CopyLibFile(install):
 
 
 setup(
+    py_modules=[],
     name='g2opy',
     version=__version__,
     description='Python binding of C++ graph optimization framework g2o.',
